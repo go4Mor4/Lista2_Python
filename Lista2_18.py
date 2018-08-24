@@ -1,3 +1,7 @@
+'''
+Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesma é uma data válida.
+'''
+
 data = input("Digite a data no seguinte modelo: [11/07/2002] :")
 if len(data) != 10:
     print("ERRADO")
